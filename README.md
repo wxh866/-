@@ -79,17 +79,12 @@ python screenshot_tool.py
 
 ```
 截图工具/
-├── screenshot_tool.py          # 主程序入口（约2900行）
+├── screenshot_tool.py          # 主程序入口
 ├── theme_colors.py             # 统一主题色彩管理模块
 ├── requirements.txt            # Python 依赖清单
 ├── run.bat                     # Windows 一键启动脚本
 ├── settings.json               # 用户配置文件
-├── dist/                       # 打包输出目录
-├── design-spec.md              # UI 设计规范文档
-├── theme-system.md             # 主题色彩体系说明
-├── design-showcase.html        # 设计原型展示页
-├── screenshot-ui-prototype.html # UI 交互原型
-├── LICENSE                     # 开源许可证
+├── LICENSE                     # 开源许可证 (Apache 2.0)
 ├── CHANGELOG.md                # 版本更新记录
 └── README.md                   # 本文件
 ```
@@ -114,7 +109,7 @@ accent = T.ACCENT     # 强调色
 - **L2 语义色**：ACCENT、RED、GREEN、ORANGE
 - **L3 标注色板**：12 种固定标注颜色，双主题共用
 
-详见 [`theme-system.md`](theme-system.md)。
+详细配色方案见 `theme_colors.py` 源码注释。
 
 ---
 

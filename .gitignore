@@ -4,8 +4,7 @@ __pycache__/
 .codebuddy/
 .workbuddy/
 *.bak
-dist/*
-!dist/.gitkeep
+dist/
 node_modules/
 .env
 *.log
