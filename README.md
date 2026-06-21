@@ -54,8 +54,8 @@
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/wxh866/-.git
-cd -
+git clone <你的仓库地址>
+cd <仓库目录>
 
 # 2. 安装依赖
 pip install -r requirements.txt
