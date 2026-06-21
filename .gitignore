@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+.codebuddy/
+.workbuddy/
+*.bak
+dist/
+node_modules/
+.env
+*.log
